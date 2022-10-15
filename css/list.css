@@ -1,0 +1,42 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk_list {
+    float: left;
+    height: 46px;
+    /* background-color: pink; */
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 46px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 49px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: "icomoon";
+}
